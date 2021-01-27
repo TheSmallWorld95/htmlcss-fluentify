@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family:  'Maven Pro', sans-serif;
 }
 
 .container {
   background-color: #0C325A;
 }
+
 
 nav {
   width: 80%;
@@ -28,11 +29,12 @@ nav ul li {
   padding-right: 40px;
 }
 
-nav ul li a {
+nav ul li a, p a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
+
 }
 
 .logo {
@@ -40,3 +42,78 @@ nav ul li a {
   vertical-align: middle;
   padding-right: 80px;
 }
+
+nav ul:last-child {
+  float: right;
+  padding-top: 7px;
+}
+
+.jumbo-container {
+  width: 100%;
+  margin-top: 100px;
+
+
+}
+
+
+.jumbo {
+  background: url("../img/background-header.png") no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 550px;
+
+}
+
+.p-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 60px;
+  color: #fff;
+
+}
+
+p {
+  width: 700px;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+
+p a {
+  font-size: 15px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+}
+
+/* UTILITY */
+
+.btn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.br-none {
+  border: none;
+}
+
+.plr-10-40 {
+  padding: 10px 40px;
+
+}
+.bg-green {
+  background-color: #7CBB02;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+/* UTILITY */
